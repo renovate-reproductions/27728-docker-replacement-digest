@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "configWarningReuseIssue": false,
+    "extends": [
+        "config:recommended"
+    ],
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "docker"
+            ],
+            "matchPackagePatterns": [
+                "^redhat/ubi8-minimal.*"
+            ],
+            "replacementName": "redhat/ubi8",
+            "replacementVersion": "8.9-1107"
+        }
+    ]
+}

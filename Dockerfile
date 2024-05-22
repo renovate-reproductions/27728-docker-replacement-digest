@@ -1,1 +1,1 @@
-FROM redhat/ubi8-minimal:8.9-1029@sha256:87bcbfedfd70e67aab3875fff103bade460aeff510033ebb36b7efa009ab6639
+FROM redhat/ubi8:8.9-1107@sha256:1fdb97f2d2a44fdef3feaa69100f154631bae65130105ac685d0e34eb1d8c3d0
